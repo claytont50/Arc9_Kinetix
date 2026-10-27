@@ -26,8 +26,8 @@ juce_add_plugin(Arc9_Kinetix
 )
 
 target_sources(Arc9_Kinetix PRIVATE
-    Source/PluginProcessor.cpp
-    Source/PluginEditor.cpp
+    PluginProcessor.cpp
+    PluginEditor.cpp
 )
 
 target_compile_definitions(Arc9_Kinetix PRIVATE
