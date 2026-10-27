@@ -1,6 +1,6 @@
 name: Build Arc-9 Kinetix VST3 (Windows 64-bit)
 
-on: [push, workflow_dispatch]
+on: [push, workflow_dispatch] 
 
 jobs:
   build:
